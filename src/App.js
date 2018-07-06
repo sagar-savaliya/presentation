@@ -7,7 +7,7 @@ class App extends Component {
     constructor() {
         super();
         this.state = {
-            currentSlide: 3
+            currentSlide: 0
         }
         window.addEventListener('keydown', this.handleKeyDown)
     }
